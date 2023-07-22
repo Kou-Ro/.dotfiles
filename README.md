@@ -1,2 +1,3 @@
-# .dotfiles
-configs set
+開発中
+
+in debelopment
