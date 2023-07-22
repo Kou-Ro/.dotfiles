@@ -1,3 +1,3 @@
 開発中
 
-in debelopment
+IN DEVELOPMENT
