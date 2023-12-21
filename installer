@@ -1,0 +1,10 @@
+#!/bin/zsh
+
+# Get terget path
+target="$(cd "$(pwd)/$(dirname "${0}")" && pwd)"
+
+# zsh
+/bin/zsh -c "cd ${target}/zsh; ./installer"
+
+# nvim
+/bin/zsh -c "cd ${target}/nvim; ./installer"
