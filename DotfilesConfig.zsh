@@ -8,9 +8,8 @@ dcon-help(){
 
 dcon-update(){
     # submodules update
-    git -C "${DOTFILES}/zsh" reset --hard origin/HEAD
-    git -C "${DOTFILES}/nvim" reset --hard origin/HEAD
-    git -C "${DOTFILES}" reset --hard origin/HEAD
+    git -C "${DOTFILES}" submodule foreach --recursive git  reset --hard
+    git -C "${DOTFILES}" reset --hard
     git -C "${DOTFILES}" pull
     git -C "${DOTFILES}" submodule update --recursive --init --force
 
