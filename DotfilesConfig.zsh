@@ -1,6 +1,12 @@
 #!/bin/zsh
 
-dotfiles-update(){
+dcon-help(){
+  print "Please specify subcommands \n"
+  print "update    update repositorys"
+  print "help      display this help"
+}
+
+dcon-update(){
     # submodules update
     git -C "${DOTFILES}/zsh" reset --hard origin/HEAD
     git -C "${DOTFILES}/nvim" reset --hard origin/HEAD
