@@ -1,7 +1,7 @@
 #!/bin/zsh
 
 # Get terget path
-target="$(cd "$(pwd)/$(dirname "${0}")" && pwd)"
+target="$(cd "$(dirname "${0}")" && pwd)"
 
 # zsh
 /bin/zsh -c "cd ${target}/zsh; ./installer"
