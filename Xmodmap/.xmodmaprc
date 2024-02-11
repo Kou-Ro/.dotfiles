@@ -1,9 +1,0 @@
-clear lock
-
-keycode 49 = Escape Escape Escape Escape Escape Escape
-keycode 23 = Zenkaku_Hankaku Zenkaku_Hankaku Zenkaku_Hankaku Zenkaku_Hankaku Zenkaku_Hankaku Zenkaku_Hankaku Zenkaku_Hankaku
-keycode 66 = Tab Tab Tab Tab Tab Tab
-keycode 100 = Escape Escape Escape Escape Escape Escape
-keycode 102 = Control_L
-
-add control = Control_L Control_R
