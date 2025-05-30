@@ -8,3 +8,6 @@ target="$(cd "$(dirname "${0}")" && pwd)"
 
 # nvim
 /bin/zsh -c "cd ${target}/nvim; ./installer"
+
+# TeX
+/bin/zsh -c "cd ${target}/TeX; ./installer"

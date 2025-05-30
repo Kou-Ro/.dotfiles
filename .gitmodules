@@ -4,3 +4,6 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/Kou-Ro/nvim
+[submodule "TeX"]
+	path = TeX
+	url = https://github.com/Kou-Ro/TeX.git
